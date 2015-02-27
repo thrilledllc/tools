@@ -10,7 +10,7 @@ if repo == nil || access_token == nil
 end
 
 time_estimate_labels = {
-  '0.5h' => {:color=>'d4c5f9'},
+  '0.5h' => {:color=>'ddddff'},
   '1h' => {:color=>'d4c5f9'},
   '2h' => {:color=>'bfd4f2'},
   '4h' => {:color=>'c7def8'},
@@ -18,6 +18,9 @@ time_estimate_labels = {
   '16h' => {:color=>'fef2c0'},
   '32h' => {:color=>'fad8c7'},
   '64h' => {:color=>'f7c6c7'},
+  'Priority 1 Low' => {:color=>'fbca04'},
+  'Priority 2 Medium' => {:color=>'eb6420'},
+  'Priority 3 High' => {:color=>'e11d21'}
 }
 
 missing_time_estimate_labels = time_estimate_labels.clone
